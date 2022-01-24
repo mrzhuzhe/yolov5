@@ -30,4 +30,6 @@ copy_paste: 0.0  # segment copy-paste (probability)
 
 
 
-# python train.py --img 720 --batch 32 --epochs 15 --data reef.yaml --weights yolov5s6.pt --name reef_test --hyp data/hyps/hyp.reef.yaml
+# python train.py --img 640 --batch 32 --epochs 10 --data reef.yaml --weights yolov5s6.pt --name reef_mixup--hyp data/hyps/hyp.reef.yaml
+
+# python train.py --img 640 --batch 32 --epochs 10 --data reef.yaml --weights yolov5s6.pt --name reef_p2 --hyp data/hyps/hyp-reef.yaml --cfg=models/yolov5s-reef.yaml
