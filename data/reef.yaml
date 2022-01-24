@@ -1,0 +1,8 @@
+path: ../yolov5-data  
+train: train 
+val: val 
+test: val 
+
+nc: 1 
+names: ['cots']
+
