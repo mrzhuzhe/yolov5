@@ -1,8 +1,7 @@
-path: ../yolov5-data  
+path: ../reef-data/out/fold2
 train: train 
-val: val 
-test: val 
+val: valid 
+test: valid 
 
 nc: 1 
 names: ['cots']
-
